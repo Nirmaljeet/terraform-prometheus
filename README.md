@@ -1,20 +1,3 @@
-# Terraform - prometheus - Grafana
-# Provision and deploy the Prometheus and Grafana on AWS using Terraform and Docker.
-- [Introduction](#Introduction)
-- [Pre-requisites](#pre-requisites)
-- [Installation and configuration](#Installation-and-configuration)
-- [Result](#Result)
-- [Node Exporter](#Node Exporter)
-
-# Introduction
-In this post, we will deploy a prometheus docker to AWS. We will use Terraform to provision a series of Elastic Cloud Compute (EC2) instances.
-The instances will be built from a basic ubuntu 18.04 ami. We will install the docker and deploy the prometheus.
-The Prometheus will discover the ec2 instance in the singapore region(If you wish to change please add the respective region in yml file)
-
-# Pre-requisites
-Before we get started installing the Prometheus stack on AWS. 
-* Ensure you install the latest version of [terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) is installed
-* Create the IAM access in AWS to provision the ec2 instance,vpc,subnet,internet gateway,security group,iam.
 
 # Installation and configuration
 Clone the project locally to your Docker host.
@@ -37,7 +20,7 @@ In this project the prometheus will discover the ec2 instance across the singapo
 # Steps to run the provisioning in terraform
 1. Clone the repo
 ```
-git clone https://github.com/ahamedyaserarafath/terraform_prometheus.git
+
 ```
 2. Terraform initialize a working directory 
 ```
