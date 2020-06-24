@@ -18,19 +18,15 @@ In this project we used the following provision.
 In this project the prometheus will discover the ec2 instance across the singapore region.
 
 # Steps to run the provisioning in terraform
-1. Clone the repo
-```
-
-```
-2. Terraform initialize a working directory 
+ Terraform initialize a working directory 
 ```
 terraform init
 ```
-3. Terraform to create an execution plan
+ Terraform to create an execution plan
 ```
 terraform plan
 ```
-4. Terraform apply to provision in aws
+Terraform apply to provision in aws
 ```
 terraform apply
 ```
