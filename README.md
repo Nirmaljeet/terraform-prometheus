@@ -27,7 +27,7 @@ The AWS will provision and those are added as a part of variables, if you wish t
 In this project we used the following provision.
 * EC2 AMI - ami-0dad20bd1b9c8c004 
 * EC2 Instance Type - t2.micro
-* Region - Singapore
+* Region - Oregon
 * VPC - 11.0.0.0/16
 * Subnet - 11.0.1.0/24
 * Port Opened - 3000, 9090
